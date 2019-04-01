@@ -1,9 +1,10 @@
 
 module.exports = app => {
 
+    const PORT = process.env.PORT || 3000
     app.db.sequelize.sync().done(() => {
-        app.listen(process.env.PORT || 3000, () => {
-            console.log(`API Funcionários = PORTA ${app.get('port')}`);
+        app.listen(PORT, () => {
+            console.log(`API Funcionários = PORTA ${PORT}`);
         });
     });
 }
