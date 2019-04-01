@@ -1,0 +1,21 @@
+{
+  "name": "desafio-stone-backend",
+  "version": "1.0.0",
+  "description": "API para CRUD de funcionários",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "author": "Rander Carlos",
+  "dependencies": {
+    "consign": "^0.1.6",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "sequelize": "^5.2.8",
+    "sqlite3": "^4.0.6"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
